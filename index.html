@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Descriptografia de Mensagem</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="title-section">
+            <h1>Criptografia 🔏</h1>
+        </div>
+        <div class="form-section">
+            <div class="box criptografia">
+                <h3>Criptografar</h3>
+                <textarea id="message" placeholder="Digite sua mensagem"></textarea>
+                <button class="key" onclick="generateKeys()">Gerar Chaves</button>
+                <button class="messageButton" onclick="encryptMessage()">Criptografar</button>
+                <p>Mensagem Criptografada:</p>
+                <textarea id="encryptedMessage" readonly></textarea>
+            </div>
+            <div class="box descriptografia">
+                <h3>Descriptografar Mensagem</h3>
+                <textarea id="inputEncryptedMessage" placeholder="Insira a mensagem criptografada"></textarea>
+                <button class="messageButton" onclick="decryptMessage()">Descriptografar</button>
+                <p>Mensagem Original:</p>
+                <textarea id="decryptedMessage" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <script src="js/criptografa.js"></script>
+    <script src="js/descriptografa.js"></script>
+</body>
+</html>

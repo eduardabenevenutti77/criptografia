@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d4e4c6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+.main-container {
+  background-color: #ffffff;
+  padding: 40px;
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.title-section h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #204e09;
+  text-align: center;
+  margin: 0;
+  font-family: "Jost";
+}
+.form-section {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.box {
+  background-color: #ffffff;
+  /* border: 2px solid #007bff; */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 123, 255, 0.2);
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+.box:hover {
+  transform: translateY(-10px);
+}
+.criptografia {
+  background: linear-gradient(135deg, #e3fae0, #ffffff);
+}
+.descriptografia {
+  background: linear-gradient(135deg, #e3fae0, #ffffff);
+}
+h3 {
+  font-size: 1.2rem;
+  color: #204e09;
+  margin: 0 0 10px 0;
+}
+textarea {
+  width: 350px;
+  height: 100px;
+  padding: 12px;
+  font-size: 1rem;
+  color: #333;
+  border-radius: 8px;
+  border: 1px solid #d1d9e6;
+  background-color: #ffffff;
+  transition: border-color 0.2s;
+}
+textarea:focus {
+  outline: none;
+  border-color: #1f5326;
+}
+.key {
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #64914e;
+  font-family: "Jost";
+  width: 150px;
+  color: #ffffff;
+  font-size: 14px;
+}
+.messageButton {
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #336718;
+  font-family: "Jost";
+  width: 150px;
+  color: #ffffff;
+  font-size: 14px;
+  justify-content: center;
+}
+p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 15px;
+  font-family: "Jost";
+  text-align: center;
+  margin-bottom: 0px;
+}
